@@ -364,7 +364,7 @@ if __name__ == '__main__':
 
         print("Training final model has finished, time elapsed {:.2f} hours \n".format((time.time() - final_train_ts) / 3600))
         print("@@@ FINISH TRAINING FINAL NN @@@ \n")
-
+ 
     # testing #
     print("@@@ START TESTING FINAL NN @@@ \n")
     test_ts = time.time()
